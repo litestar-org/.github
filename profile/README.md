@@ -2,11 +2,13 @@
 
 > Effortless and Blazingly Fast APIs.
 
-Project Information:
+### Project Information:
 * [Starlite Project - Home][home]
 * [Starlite API Documentation][docs]
 * [How to Contribute][contrib]
 * [Release Schedule][releases]
+
+### Quick Links:
 * [Create an Issue][issue]
 * [Create a Discussion][discussion]
 * [Security Policy][security]
@@ -14,7 +16,6 @@ Project Information:
 ## Code of Conduct
 
 All Starlite project are subject to the [Code of Conduct][conduct]. Please review this to know how to interact with us.
-
 
 [home]: https://github.com/starlite-api/starlite
 [docs]: https://starlite-api.github.io/starlite/latest/
