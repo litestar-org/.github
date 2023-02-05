@@ -5,10 +5,10 @@
 ### Project Information:
 * [Starlite Project - Home][home]
 * [Starlite API Documentation][docs]
-* [How to Contribute][contrib]
 * [Release Schedule][releases]
 
 ### Quick Links:
+* [How to Contribute][contrib]
 * [Create an Issue][issue]
 * [Create a Discussion][discussion]
 * [Security Policy][security]
