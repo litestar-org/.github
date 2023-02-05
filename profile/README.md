@@ -7,6 +7,9 @@ Project Information:
 * [Starlite API Documentation][docs]
 * [How to Contribute][contrib]
 * [Release Schedule][releases]
+* [Create an Issue][issue]
+* [Create a Discussion][discussion]
+* [Security Policy][security]
 
 ## Code of Conduct
 
@@ -19,3 +22,6 @@ All Starlite project are subject to the [Code of Conduct][conduct]. Please revie
 [releases]: https://starlite-api.github.io/starlite/latest/starlite-releases.html
 [conduct]: https://github.com/starlite-api/.github/blob/main/CODE_OF_CONDUCT.md
 [orgstruct]: https://starlite-api.github.io/starlite/latest/organization.html
+[issue]: https://github.com/starlite-api/starlite/issues/new/choose
+[discussion]: https://github.com/starlite-api/starlite/discussions/new/choose
+[security]: https://github.com/starlite-api/.github/blob/main/SECURITY.md
