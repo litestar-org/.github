@@ -56,6 +56,18 @@ body:
       render: python
     validations:
       required: true
+  - type: dropdown
+  attributes:
+    label: Select Question Topic
+    description: What would you like to discuss?
+    options:
+      - "API"
+      - "Meta"
+      - "Bug"
+      - "General"
+      - "Other"
+  validations:
+    required: true
   - type: textarea
     id: description
     attributes:
