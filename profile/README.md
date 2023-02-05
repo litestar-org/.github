@@ -15,7 +15,7 @@
 
 ## Code of Conduct
 
-All Starlite project are subject to the [Code of Conduct][conduct]. Please review this to know how to interact with us.
+All Starlite projects are subject to the [Code of Conduct][conduct]. Please review this to know how to interact with us.
 
 [home]: https://github.com/starlite-api/starlite
 [docs]: https://starlite-api.github.io/starlite/latest/
