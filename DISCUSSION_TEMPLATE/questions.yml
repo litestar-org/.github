@@ -1,0 +1,123 @@
+labels: [question]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for your interest in Starlite! 🚀
+
+        Please follow these instructions, fill every question, and do every step. 🙏
+
+        By asking questions in a structured way (following this) it will be much easier to help you.
+
+        The chances that you find a solution while completing the checklist below increase significantly, saving all of us time!
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: First Check
+      description: Please confirm and check all the following options.
+      options:
+        - label: I added a very descriptive title here.
+          required: true
+        - label: I used the GitHub search to find a similar question and didn't find it.
+          required: true
+        - label: I searched the Starlite documentation, with the integrated search.
+          required: true
+        - label: I already searched in Google "How to X in Starlite" and didn't find any information.
+          required: true
+        - label: I already read and followed all the tutorial in the docs and didn't find an answer.
+          required: true
+        - label: I already checked if it is not related to Starlite but to [Pydantic](https://github.com/samuelcolvin/pydantic).
+          required: true
+        - label: I already checked if it is not related to Starlite but to [Swagger UI](https://github.com/swagger-api/swagger-ui).
+          required: true
+        - label: I already checked if it is not related to Starlite but to [ReDoc](https://github.com/Redocly/redoc).
+          required: true
+  - type: checkboxes
+    id: help
+    attributes:
+  - type: textarea
+    id: example
+    attributes:
+      label: Example Code
+      description: |
+        Please add a self-contained, [minimal, reproducible, example](https://stackoverflow.com/help/minimal-reproducible-example) with your use case.
+
+        If I (or someone) can copy it, run it, and see it right away, there's a much higher chance I (or someone) will be able to help you.
+
+      placeholder: |
+        from starlite import Starlite
+
+        @get("/")
+        def hello_world() -> dict[str, str]:
+            """Keeping the tradition alive with hello world."""
+            return {"hello": "world"}
+            
+        app = Starlite(route_handlers=[hello_world])
+      render: python
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: |
+        What is the problem, question, or error?
+
+        Write a short description telling us what you are doing, what you expect to happen, and what is currently happening.
+      placeholder: |
+        * Open the browser and call the endpoint `/`.
+        * It returns a JSON with `{"Hello": "World"}`.
+        * But I expected it to return `{"Hello": "Sara"}`.
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating System
+      description: What operating system are you on?
+      multiple: true
+      options:
+        - Linux
+        - Windows
+        - macOS
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: os-details
+    attributes:
+      label: Operating System Details
+      description: You can add more details about your operating system here, in particular if you chose "Other".
+  - type: input
+    id: starlite-version
+    attributes:
+      label: Starlite Version
+      description: |
+        What Starlite version are you using?
+
+        You can find the Starlite version with:
+
+        ```bash
+        python -c "import starlite; print(starlite.__version__)"
+        ```
+    validations:
+      required: true
+  - type: input
+    id: python-version
+    attributes:
+      label: Python Version
+      description: |
+        What Python version are you using?
+
+        You can find the Python version with:
+
+        ```bash
+        python --version
+        ```
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional Context
+      description: Add any additional context information or screenshots you think are useful.
