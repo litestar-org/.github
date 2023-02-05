@@ -1,6 +1,6 @@
 # Starlite API
 
-> Effortless and Blazingly Fast APIs.
+> Build Effortless and Blazingly Fast APIs.
 
 ### Project Information:
 * [Starlite Project - Home][home]
