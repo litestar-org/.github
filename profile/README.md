@@ -13,9 +13,14 @@
 * [Create a Discussion][discussion]
 * [Security Policy][security]
 
-## Code of Conduct
+### Code of Conduct
 
 All Starlite projects are subject to the [Code of Conduct][conduct]. Please review this to know how to interact with us.
+
+### Community Links
+[![Reddit](https://img.shields.io/reddit/subreddit-subscribers/starlite?label=r%2FStarlite&logo=reddit)](https://reddit.com/r/starlite)
+[![Discord](https://img.shields.io/discord/919193495116337154?color=blue&label=chat%20on%20discord&logo=discord)](https://discord.gg/X3FJqy8d2j)
+[![Matrix](https://img.shields.io/badge/%5Bm%5D%20chat%20on%20Matrix-bridged-blue)](https://matrix.to/#/#starlitespace:matrix.org)
 
 [home]: https://github.com/starlite-api/starlite
 [docs]: https://starlite-api.github.io/starlite/latest/
