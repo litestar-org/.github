@@ -1,4 +1,4 @@
-# Starlite | Build Effortless and Blazingly Fast APIs.
+# Starlite | Build fast APIs effortlessly.
 
 ![starlite-logo](https://github.com/starlite-api/starlite/raw/main/artwork/SVG/starlite-banner.svg)
 
