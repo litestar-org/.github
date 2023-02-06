@@ -1,4 +1,5 @@
-# Starlite API
+![starlite-logo](https://github.com/starlite-api/starlite/raw/main/artwork/SVG/starlite-banner.svg)
+# Starlite
 
 > Build Effortless and Blazingly Fast APIs.
 
