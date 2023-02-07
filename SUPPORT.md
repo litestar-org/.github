@@ -10,6 +10,10 @@ It's a great place to connect with others, read FAQs, as well as [ask for help w
 The Starlite documentation is hosted in the [`starlite` repository][repo]. 
 If you want to report something that is wrong or missing from the documentation, [please open a new issue there][repo-newissue].
 
+## ⚠️ I found a vulnerability in Starlite.
+
+Please review our [organization-wide security policy][security]
+
 ## 🐛 I found a bug in Starlite.
 
 If you want to report a reproducible bug or regression with Starlite, 
@@ -39,3 +43,4 @@ consider participating in one of the following forums:
 [repo-newissue]: https://github.com/starlite-api/starlite/issues/new/choose
 [openissues]: https://github.com/search?q=user%3Astarlite-api+state%3Aopen&type=Issues&ref=advsearch&l=&l=
 [bugreport]: https://github.com/starlite-api/starlite/issues/new?assignees=&labels=bug%2C+triage+required&template=bug_report.md&title=Bug%3A+
+[security]: https://github.com/starlite-api/.github/security/policy
