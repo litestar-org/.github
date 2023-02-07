@@ -6,12 +6,15 @@
 * [Starlite Project - Home][home]
 * [Starlite API Documentation][docs]
 * [Release Schedule][releases]
+* [Organizational Structure][orgstruct]
 
 ### Quick Links:
 * [How to Contribute][contrib]
-* [Create an Issue][issue]
+* [View All Open Issues][openissues]
+* [Create an Issue][newissue]
 * [Create a Discussion][discussion]
 * [Security Policy][security]
+* [How to Get Support][support]
 
 ### Code of Conduct
 
@@ -24,10 +27,12 @@ All Starlite projects are subject to the [Code of Conduct][conduct]. Please revi
 
 [home]: https://github.com/starlite-api/starlite
 [docs]: https://starlite-api.github.io/starlite/latest/
-[contrib]: https://starlite-api.github.io/starlite/latest/contribution-guide.html
+[contrib]: https://github.com/starlite-api/.github/blob/main/CONTRIBUTING.md
 [releases]: https://starlite-api.github.io/starlite/latest/starlite-releases.html
 [conduct]: https://github.com/starlite-api/.github/blob/main/CODE_OF_CONDUCT.md
 [orgstruct]: https://starlite-api.github.io/starlite/latest/organization.html
-[issue]: https://github.com/starlite-api/starlite/issues/new/choose
-[discussion]: https://github.com/starlite-api/starlite/discussions/new/choose
+[newissue]: https://github.com/starlite-api/starlite/issues/new/choose
+[openissues]: https://github.com/search?q=user%3Astarlite-api+state%3Aopen&type=Issues&ref=advsearch&l=&l=
+[discussion]: https://github.com/orgs/starlite-api/discussions/new/choose
 [security]: https://github.com/starlite-api/.github/blob/main/SECURITY.md
+[support]: https://github.com/starlite-api/.github/blob/main/SUPPORT.md
