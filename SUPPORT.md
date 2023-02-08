@@ -33,7 +33,6 @@ consider participating in one of the following forums:
 
 - [Starlite Discord Server][discord]
 - [Starlite Subreddit][subreddit]
-- [GitHub Discussions][ghdiscussions]
 
 [discord]: https://discord.gg/X3FJqy8d2j
 [discordhelp]: https://discord.gg/3vB3U8VPDP
