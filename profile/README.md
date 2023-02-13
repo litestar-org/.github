@@ -30,12 +30,12 @@ All Starlite projects are subject to the [Code of Conduct][conduct]. Please revi
 
 [home]: https://github.com/starlite-api/starlite
 [docs]: https://starlite-api.github.io/starlite/latest/
-[contrib]: https://github.com/starlite-api/.github/blob/main/CONTRIBUTING.md
-[releases]: https://starlite-api.github.io/starlite/latest/starlite-releases.html
+[contrib]: https://starliteproject.dev/community/contribution-guide.html
+[releases]: https://starliteproject.dev/about/starlite-releases.html
 [conduct]: https://github.com/starlite-api/.github/blob/main/CODE_OF_CONDUCT.md
-[orgstruct]: https://starlite-api.github.io/starlite/latest/organization.html
+[orgstruct]: https://starliteproject.dev/about/organization.html
 [newissue]: https://github.com/starlite-api/starlite/issues/new/choose
 [openissues]: https://github.com/search?q=user%3Astarlite-api+state%3Aopen&type=Issues&ref=advsearch&l=&l=
 [discussion]: https://github.com/orgs/starlite-api/discussions/new/choose
-[security]: https://github.com/starlite-api/.github/blob/main/SECURITY.md
+[security]: https://github.com/starlite-api/starlite/security/policy
 [support]: https://github.com/starlite-api/.github/blob/main/SUPPORT.md
