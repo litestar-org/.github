@@ -3,7 +3,7 @@ Thanks for using Starlite! If you need help with your Starlite project, the righ
 ## I have a question or need help with my Starlite project.
 
 If you have a coding question related to Starlite, it might be better suited for our [Discord server][discord]. 
-It's a great place to connect with others, read FAQs, as well as [ask for help with specific questions in our #help forum channel.][discordhelp].
+It's a great place to connect with others, read FAQs, as well as [ask for help with specific questions in our #help forum channel][discordhelp].
 
 ## I found something that seems wrong in the documentation.
 
