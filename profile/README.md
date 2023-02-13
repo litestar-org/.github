@@ -28,8 +28,8 @@ All Starlite projects are subject to the [Code of Conduct][conduct]. Please revi
 [![Discord](https://img.shields.io/discord/919193495116337154?color=blue&label=chat%20on%20discord&logo=discord)](https://discord.gg/X3FJqy8d2j)
 [![Matrix](https://img.shields.io/badge/%5Bm%5D%20chat%20on%20Matrix-bridged-blue)](https://matrix.to/#/#starlitespace:matrix.org)
 
-[home]: https://github.com/starlite-api/starlite
-[docs]: https://starlite-api.github.io/starlite/latest/
+[home]: https://starliteproject.dev/
+[docs]: https://starliteproject.dev/lib/index.html
 [contrib]: https://starliteproject.dev/community/contribution-guide.html
 [releases]: https://starliteproject.dev/about/starlite-releases.html
 [conduct]: https://github.com/starlite-api/.github/blob/main/CODE_OF_CONDUCT.md
