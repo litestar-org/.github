@@ -9,9 +9,8 @@
 1. Install [`poetry`](https://python-poetry.org/)
 2. Run `poetry install` to create a [`virtual environment`](https://docs.python.org/3/tutorial/venv.html) and install
    the dependencies
-3. If you're working on the documentation and need to build it locally, install the extra dependencies with `poetry install --with docs`
-4. Install [`pre-commit`](https://pre-commit.com/)
-5. Run `pre-commit install` to install pre-commit hooks
+3. Install [`pre-commit`](https://pre-commit.com/)
+4. Run `pre-commit install` to install pre-commit hooks
 
 ## Code contributions
 
@@ -53,138 +52,16 @@
 - All functions, methods, classes and attributes should be documented with a docstring. We use the
   [`Google docstring style`](https://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_google.html). If you come
   across a function or method that doesn't conform to this standard, please update it as you go
-- When adding a new public interface, it has to be  included in the reference documentation located in
-  `docs/reference`. If applicable, add or modify examples in the docs related to the new functionality implemented,
-  following the guidelines established in [Adding Examples](#adding-examples)
 
 ### Writing and running tests
 
-Tests are contained within the `tests` directory, and follow the same directory structure as the `starlite` module.
-If you are adding a test case, it should be located within the correct submodule of `tests`. E.g. tests for
-`starlite/utils./sync.py` reside in `tests/utils/test_sync.py`.
+Tests should be contained within the `tests` directory, and follow the same directory structure as the main package.
+If you are adding a test case, it should be located within the correct submodule of `tests`. (e.g., tests for
+`starlite/utils/sync.py` should go in in `tests/utils/test_sync.py`.)
 
-The `Makefile` includes several commands for running tests:
+If not, you are able to manually run `poetry run pytest` or `pytest tests/`
 
-- `make test` to run tests located in `tests`
-- `make test-examples` to run tests located in `docs/examples/tests`
-- `make test-all` to run all tests
-- `make coverage` to run tests with coverage and generate a html report
-
-
-## Project documentation
-
-The documentation is located in the `/docs` directory and is [`ReST]`(https://docutils.sourceforge.io/rst.html) and
-[`Sphinx`](https://www.sphinx-doc.org/en/master/). If you're unfamiliar with any of those,
-[`ReStructuredText primer`](https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html) and
-[`Sphinx quickstart`](https://www.sphinx-doc.org/en/master/usage/quickstart.html) are recommended reads.
-
-### Docs theme and appearance
-
-We welcome contributions that enhance / improve the appearance and usability of the docs. We use the excellent
-[`Furo`](https://pradyunsg.me/furo/quickstart/) theme, which comes with a lot of options out of the box. If you wish to
-contribute to the docs style / setup, or static site generation, you should consult the theme docs as a first step.
-
-### Running the docs locally
-
-To run or build the docs locally, you need to first install the required dependencies:
-
-`poetry install --with docs`
-
-Then you can serve the documentation with `make docs-serve`, or build them with `make docs`
-
-### Writing and editing docs
-
-We welcome contributions that enhance / improve the content of the docs. Feel free to add examples, clarify text,
-restructure the docs etc., but make sure to follow these guidelines:
-
-- Write text in idiomatic english, using simple language
-- Keep examples simple and self-contained
-- Provide links where applicable
-- Use [`intersphinx`](https://www.sphinx-doc.org/en/master/usage/extensions/intersphinx.html) wherever possible when
-  referencing external libraries
-- Provide diagrams using [`mermaidjs`](https://mermaid.js.org/) where applicable and possible
-
-### Adding examples
-
-The examples from the docs are located in their own modules inside the `/docs/examples` folder. This makes it easier
-to test them alongside the rest of the test suite, ensuring they do not become stale as Starlite evolves.
-
-Please follow the next guidelines when adding a new example:
-
-- Add the example in the corresponding module directory in `/docs/examples` or create a new one if necessary
-- Create a suite for the module in `/docs/examples/tests` that tests the aspects of the example that it demonstrates
-- Reference the example in the rst file with an external reference code block, e.g.
-
-```rst
-    .. literalinclude:: /examples/test_thing.py
-      :caption: test_thing.py
-      :language: python
-```
-
-### Automatically execute examples
-
-Our docs include a Sphinx extension that can automatically run requests against example apps
-and include their result in the documentation page when its being built. This only requires 2 steps:
-
-1. Create an example file with an `app` object in it, which is an instance of `Starlite`
-2. Add a comment in the form of `# run: /hello` to the example file
-
-When building the docs (or serving them locally), a process serving the `app` instance
-will be launched, and the requests specified in the comments will be run against it. The
-comments will be stripped from the result, and the output of the `curl` invocation inserted
-after the example code-block.
-
-The `# run:` syntax is nothing special; Everything after the colon will be passed to
-the `curl` command that's being invoked. The URL is built automatically, so the
-specified path can just be a path relative to the app.
-
-In practice, this looks like the following:
-
-```python
-from typing import Dict
-
-from starlite import Starlite, get
-
-
-@get("/")
-def hello_world() -> Dict[str, str]:
-    """Handler function that returns a greeting dictionary."""
-    return {"hello": "world"}
-
-
-app = Starlite(route_handlers=[hello_world])
-
-# run: /
-```
-
-This is equivalent to:
-
-<pre>
-.. code-block:: python
-
-    from typing import Dict
-
-    from starlite import Starlite, get
-
-
-    @get("/")
-    def hello_world() -> Dict[str, str]:
-        """Handler function that returns a greeting dictionary."""
-        return {"hello": "world"}
-
-
-    app = Starlite(route_handlers=[hello_world])
-
-
-.. admonition:: Run it
-
-    .. code-block:: bash
-
-        > curl http://127.0.0.1:8000/
-        {"hello": "world"}
-</pre>
-
-
+More information on `pytest` is available [here](https://docs.pytest.org/en/7.1.x/how-to/usage.html).
 
 ## Creating a new release
 > This section applies to repository maintainers only.
