@@ -56,7 +56,7 @@
 
 ### Writing and running tests
 
-Tests should be contained within the `tests` directory, and follow the same directory structure as the `starlite` module.
+Tests should be contained within the `tests` directory, and follow the same directory structure as the main package.
 If you are adding a test case, it should be located within the correct submodule of `tests`. E.g. tests for
 `starlite/utils/sync.py` reside in `tests/utils/test_sync.py`.
 
