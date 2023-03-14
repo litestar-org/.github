@@ -9,7 +9,7 @@
 1. Install [`poetry`](https://python-poetry.org/)
 2. Run `poetry install` to create a [`virtual environment`](https://docs.python.org/3/tutorial/venv.html) and install
    the dependencies
-3. If you're working on the documentation and need to build it locally, install the extra dependencies with `poetry install --with dev`
+3. If you're working on the documentation and need to build it locally, install the extra dependencies with `poetry install`
 4. Install [`pre-commit`](https://pre-commit.com/)
 5. Run `pre-commit install` to install pre-commit hooks
 
