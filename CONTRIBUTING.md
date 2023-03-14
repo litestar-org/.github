@@ -57,20 +57,12 @@
 ### Writing and running tests
 
 Tests should be contained within the `tests` directory, and follow the same directory structure as the main package.
-If you are adding a test case, it should be located within the correct submodule of `tests`. E.g. tests for
-`starlite/utils/sync.py` reside in `tests/utils/test_sync.py`.
-
-If the repository you are working on includes a `Makefile` you have access to includes several commands for running tests:
-
-- `make test` to run tests located in `tests`
-- `make test-examples` to run tests located in `docs/examples/tests`
-- `make test-all` to run all tests
-- `make coverage` to run tests with coverage and generate a html report
+If you are adding a test case, it should be located within the correct submodule of `tests`. (e.g., tests for
+`starlite/utils/sync.py` should go in in `tests/utils/test_sync.py`.)
 
 If not, you are able to manually run `poetry run pytest` or `pytest tests/`
 
 More information on `pytest` is available [here](https://docs.pytest.org/en/7.1.x/how-to/usage.html).
-
 
 ## Creating a new release
 > This section applies to repository maintainers only.
