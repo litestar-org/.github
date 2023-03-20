@@ -30,7 +30,7 @@ All Starlite projects are subject to the [Code of Conduct][conduct]. Please revi
 
 [home]: https://starliteproject.dev/
 [docs]: https://starliteproject.dev/lib/index.html
-[contrib]: https://starliteproject.dev/community/contribution-guide.html
+[contrib]: https://starliteproject.dev/community/contribution-guide
 [releases]: https://starliteproject.dev/about/starlite-releases.html
 [conduct]: https://github.com/starlite-api/.github/blob/main/CODE_OF_CONDUCT.md
 [orgstruct]: https://starliteproject.dev/about/organization.html
