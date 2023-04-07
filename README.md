@@ -1,2 +1,2 @@
 # .github
-  Community health files for the [`@starlite-api`](https://github.com/starlite-api/) organization
+  Community health files for the [`@litestar-org`](https://github.com/litestar-org/) organization
