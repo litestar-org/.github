@@ -6,8 +6,8 @@
 </p>
 
 ### Project Information:
-* [Starlite Project - Home][home]
-* [Starlite API Documentation][docs]
+* [Litestar Project - Home][home]
+* [Litestar Documentation][docs]
 * [Release Schedule][releases]
 * [Organizational Structure][orgstruct]
 
@@ -21,21 +21,21 @@
 
 ### Code of Conduct
 
-All Starlite projects are subject to the [Code of Conduct][conduct]. Please review this to know how to interact with us.
+All Litestar projects are subject to the [Code of Conduct][conduct]. Please review this to know how to interact with us.
 
 ### Community Links
 [![Reddit](https://img.shields.io/reddit/subreddit-subscribers/starlite?label=r%2FStarlite&logo=reddit)](https://reddit.com/r/starlite)
 [![Discord](https://img.shields.io/discord/919193495116337154?color=blue&label=chat%20on%20discord&logo=discord)](https://discord.gg/X3FJqy8d2j)
 [![Matrix](https://img.shields.io/badge/%5Bm%5D%20chat%20on%20Matrix-bridged-blue)](https://matrix.to/#/#starlitespace:matrix.org)
 
-[home]: https://starliteproject.dev/
-[docs]: https://starliteproject.dev/lib/index.html
-[contrib]: https://starliteproject.dev/community/contribution-guide
-[releases]: https://starliteproject.dev/about/starlite-releases.html
-[conduct]: https://github.com/starlite-api/.github/blob/main/CODE_OF_CONDUCT.md
-[orgstruct]: https://starliteproject.dev/about/organization.html
-[newissue]: https://github.com/starlite-api/starlite/issues/new/choose
-[openissues]: https://github.com/search?q=user%3Astarlite-api+state%3Aopen&type=Issues&ref=advsearch&l=&l=
-[discussion]: https://github.com/orgs/starlite-api/discussions/new/choose
-[security]: https://github.com/starlite-api/starlite/security/policy
-[support]: https://github.com/starlite-api/.github/blob/main/SUPPORT.md
+[home]: https://litestar.dev/
+[docs]: https://docs.litestar.dev/
+[contrib]: https://litestar.dev/community/contribution-guide
+[releases]: https://litestar.dev/about/litestar-releases.html
+[conduct]: https://github.com/litestar-org/.github/blob/main/CODE_OF_CONDUCT.md
+[orgstruct]: https://litestar.dev/about/organization.html
+[newissue]: https://github.com/litestar-api/litestar/issues/new/choose
+[openissues]: https://github.com/search?q=user%3Alitestar-org+state%3Aopen&type=Issues&ref=advsearch&l=&l=
+[discussion]: https://github.com/orgs/litestar-org/discussions/new/choose
+[security]: https://github.com/litestar-org/litestar/security/policy
+[support]: https://github.com/litestar-org/.github/blob/main/SUPPORT.md
