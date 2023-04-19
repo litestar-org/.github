@@ -1,45 +1,45 @@
-Thanks for using Starlite! If you need help with your Starlite project, the right place to go depends on the type of help that you need.
+Thanks for using Litestar! If you need help with your Litestar project, the right place to go depends on the type of help that you need.
 
-## I have a question or need help with my Starlite project.
+## I have a question or need help with my Litestar project.
 
-If you have a coding question related to Starlite, it might be better suited for our [Discord server][discord]. 
+If you have a coding question related to Litestar, it might be better suited for our [Discord server][discord]. 
 It's a great place to connect with others, read FAQs, as well as [ask for help with specific questions in our #help forum channel][discordhelp].
 
 ## I found something that seems wrong in the documentation.
 
-The Starlite documentation is hosted in the [`starlite` repository][repo]. 
+The Litestar documentation is hosted in the [`litestar` repository][repo]. 
 If you want to report something that is wrong or missing from the documentation, [please open a new issue there][repo-newissue].
 
-## I found a vulnerability in Starlite.
+## I found a vulnerability in Litestar.
 
 Please review our [organization-wide security policy][security]
 
-## I found a bug in Starlite.
+## I found a bug in Litestar.
 
-If you want to report a reproducible bug or regression with Starlite, 
+If you want to report a reproducible bug or regression with Litestar, 
 you can [create a new issue][bugreport]. 
 It's a good idea to look through [open issues][openissues] before doing so, 
 as someone else may have reported a similar issue.
 
-## I want to discuss the future of Starlite.
+## I want to discuss the future of Litestar.
 
-If you'd like to discuss topics related to the future of Starlite, 
-please check out the [Starlite Discussions][ghdiscussions] or [Starlite Discord's][discord] `#development` channel
+If you'd like to discuss topics related to the future of Litestar, 
+please check out the [Litestar Discussions][ghdiscussions] or [Litestar Discord's][discord] `#development` channel
 
-## I want to talk to other Starlite users and developers.
+## I want to talk to other Litestar users and developers.
 
-If you want to participate in casual discussions about the use of Starlite, 
+If you want to participate in casual discussions about the use of Litestar, 
 consider participating in one of the following forums:
 
-- [Starlite Discord Server][discord]
-- [Starlite Subreddit][subreddit]
+- [Litestar Discord Server][discord]
+- [Litestar Subreddit][subreddit]
 
 [discord]: https://discord.gg/X3FJqy8d2j
 [discordhelp]: https://discord.gg/3vB3U8VPDP
-[subreddit]: https://www.reddit.com/r/starlite
-[ghdiscussions]: https://github.com/orgs/starlite-api/discussions
-[repo]: https://github.com/starlite-api/starlite
-[repo-newissue]: https://github.com/starlite-api/starlite/issues/new/choose
-[openissues]: https://github.com/search?q=user%3Astarlite-api+state%3Aopen&type=Issues&ref=advsearch&l=&l=
-[bugreport]: https://github.com/starlite-api/starlite/issues/new?assignees=&labels=bug%2C+triage+required&template=bug_report.md&title=Bug%3A+
-[security]: https://github.com/starlite-api/.github/security/policy
+[subreddit]: https://www.reddit.com/r/litestarapi
+[ghdiscussions]: https://github.com/orgs/litestar-org/discussions
+[repo]: https://github.com/litestar-org/litestar
+[repo-newissue]: https://github.com/litestar-org/litestar/issues/new/choose
+[openissues]: https://github.com/search?q=user%3Alitestar-org+state%3Aopen&type=Issues&ref=advsearch&l=&l=
+[bugreport]: https://github.com/litestar-org/litestar/issues/new?assignees=&labels=bug%2C+triage+required&template=bug_report.md&title=Bug%3A+
+[security]: https://github.com/litestar-org/.github/security/policy
