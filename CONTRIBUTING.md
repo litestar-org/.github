@@ -1,6 +1,6 @@
 # Contribution guide
 
-> This applies to all Starlite repositories, unless otherwise noted in a specific repository.
+> This applies to all Litestar repositories, unless otherwise noted in a specific repository.
 > 
 > This is a very generalized contribution guide. Information below may not apply to all repositories.
 
@@ -37,7 +37,6 @@
   [`mypy`](https://mypy.readthedocs.io/en/stable/) and [`pyright`](https://github.com/microsoft/pyright)
 
   * When requiring complex types, use a [`type alias`](https://docs.python.org/3/library/typing.html#type-aliases).
-    Check `starlite/types` if a type alias for your use case already exists
   * If something cannot be typed correctly due to a limitation of the type checkers, you may use
     [`typing.cast`](https://docs.python.org/3/library/typing.html#typing.cast) to rectify the situation. However, you
     should only use as a last resort if you've exhausted all other options of
@@ -57,7 +56,7 @@
 
 Tests should be contained within the `tests` directory, and follow the same directory structure as the main package.
 If you are adding a test case, it should be located within the correct submodule of `tests`. (e.g., tests for
-`starlite/utils/sync.py` should go in in `tests/utils/test_sync.py`.)
+`litestar/utils/sync.py` should go in in `tests/utils/test_sync.py`.)
 
 If not, you are able to manually run `poetry run pytest` or `pytest tests/`
 
@@ -67,7 +66,7 @@ More information on `pytest` is available [here](https://docs.pytest.org/en/7.1.
 > This section applies to repository maintainers only.
 
 1. Increment the version in `pyproject.toml` according to the
-   [`versioning scheme`](https://starlite-api.github.io/starlite/latest/starlite-releases.html#version-numbering)
+   [`versioning scheme`](https://litestar.dev/about/litestar-releases.html#version-numbering)
 2. Draft a new release on GitHub in the repository
 
    * Use `vMAJOR.MINOR.PATCH` (e.g. `v1.2.3`) as both the tag and release title
