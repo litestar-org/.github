@@ -50,7 +50,7 @@ body:
       label: "Screenshots"
       description: If applicable, add screenshots to help explain your problem.
       value: |
-        "![SCREENSHOT_DESCRIPTION](SCREENSHOT_LINK.png)"
+        "In the format of: `![SCREENSHOT_DESCRIPTION](SCREENSHOT_LINK.png)`"
       render: bash
     validations:
       required: false
@@ -65,8 +65,8 @@ body:
   - type: textarea
     id: version
     attributes:
-      label: "Starlite Version"
-      description: What version of Starlite are you using when encountering this issue?
+      label: "Litestar Version"
+      description: What version of Litestar are you using when encountering this issue?
     validations:
       required: true
   - type: checkboxes
