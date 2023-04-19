@@ -23,7 +23,7 @@
                 }
             },
             "policyInfo": "MIT License is required for code.",
-            "policyUrl": "https://github.com/starlite-api/meta/blob/main/policies/release.md"
+            "policyUrl": "https://github.com/litestar-org/.github/blob/main/policies/release.md"
         },
         "readme-file-exists": {
             "level": "warning",
@@ -41,8 +41,8 @@
                     "text": { "url": "https://raw.githubusercontent.com/newrelic/open-source-tools/master/nerdpacks/oss-template/README.md" }
                 }
             },
-            "policyInfo": "GitHub requires a README file in all projects. This README should give a general overview of the project, and should point to additional resources (security, contributing, etc.) where developers and users can learn further",
-            "policyUrl": "https://github.com/github/open-source/blob/main/policies/release.md"
+            "policyInfo": "Litestar requires a README file in all projects. This README should give a general overview of the project, and should point to additional resources (.github/security, .github/contributing or specific repo contributing, etc.) where developers and users can learn further",
+            "policyUrl": "https://github.com/litestar-org/.github/blob/main/policies/release.md"
         },
     },
     "formatOptions": {
