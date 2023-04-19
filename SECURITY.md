@@ -1,10 +1,10 @@
 # Security Policy
 
-Thanks for helping make Starlite safe for everyone.
+Thanks for helping make Litestar safe for everyone.
 
 ## Security
 
-Starlite takes the security of our projects and services seriously, including all of the repositories managed by the [starlite-api organization](https://github.com/starlite-api).
+Litestar takes the security of our projects and services seriously, including all of the repositories managed by the [litestar organization](https://github.com/litestar-org).
 
 We will ensure that your finding gets escalated to the appropriate maintainer(s) for remediation.
 
@@ -12,9 +12,9 @@ We will ensure that your finding gets escalated to the appropriate maintainer(s)
 
 **Please do not report security vulnerabilities through public GitHub issues, discussions, or pull requests.**
 
-[Click to Open a Security Advisory Privately](https://github.com/starlite-api/starlite/security/advisories/new)
+[Click to Open a Security Advisory Privately](https://github.com/litestar-org/litestar/security/advisories/new)
 
-If you believe you have found a security vulnerability in any Starlite-owned repository, please report it to us through coordinated disclosure:
+If you believe you have found a security vulnerability in any Litestar-managed repository, please report it to us through coordinated disclosure:
 
 - In the affected repository, browse to the **Security** tab, select **Advisories**, select "Report a vulnerability"
   - ![image](https://user-images.githubusercontent.com/45884264/217041010-8fd6b96b-329d-4d8e-8838-9b5bf4e1a78d.png)
