@@ -42,11 +42,11 @@ All Litestar projects are subject to the [Code of Conduct][conduct]. Please revi
 
 [home]: https://litestar.dev/
 [docs]: https://docs.litestar.dev/
-[contrib]: https://litestar.dev/community/contribution-guide
+[contrib]: https://docs.litestar.dev/latest/contribution-guide.html
 [releases]: https://litestar.dev/about/litestar-releases.html
 [conduct]: https://github.com/litestar-org/.github/blob/main/CODE_OF_CONDUCT.md
 [orgstruct]: https://litestar.dev/about/organization.html
-[newissue]: https://github.com/litestar-api/litestar/issues/new/choose
+[newissue]: https://github.com/litestar-org/litestar/issues/new/choose
 [openissues]: https://github.com/search?q=user%3Alitestar-org+state%3Aopen&type=Issues&ref=advsearch&l=&l=
 [discussion]: https://github.com/orgs/litestar-org/discussions/new/choose
 [security]: https://github.com/litestar-org/litestar/security/policy
