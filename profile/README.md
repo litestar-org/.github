@@ -35,7 +35,7 @@ All Litestar projects are subject to the [Code of Conduct][conduct]. Please revi
 [![PyPI version](https://badge.fury.io/py/litestar.svg)](https://badge.fury.io/py/litestar)
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/litestar)](https://pypistats.org/packages/litestar)
 
-**Note: The above are reflective of our new move to Litestar on Pypi. The below are the old and accurate numbers**
+> **_Note_**: The above are reflective of our new move to Litestar on PyPI. The below data represents the Starlite project
 
 [![PyPI version](https://badge.fury.io/py/starlite.svg)](https://badge.fury.io/py/starlite)
 [![PyPI - Downloads](https://img.shields.io/pypi/dm/starlite)](https://pypistats.org/packages/starlite)
