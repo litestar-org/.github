@@ -1,6 +1,7 @@
 # Litestar | Effortlessly Build Performant APIs
 
-### Note: Starlite has been renamed to Litestar
+> [!IMPORTANT]\
+> [**_Starlite has been renamed to Litestar_**](https://litestar.dev/about/organization.html#litestar-and-starlite)
 
 <p align="center">
   <img src="https://github.com/litestar-org/branding/blob/main/assets/Branding%20-%20SVG%20-%20Transparent/Logo%20-%20Banner%20-%20Inline%20-%20Light.svg#gh-light-mode-only" alt="Litestar Logo - Light" width="100%" height="auto" />
