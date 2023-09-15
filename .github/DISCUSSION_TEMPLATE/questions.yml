@@ -34,7 +34,7 @@ body:
           required: true
   - type: checkboxes
     id: help
-    attributes:
+    attributes: {}
   - type: textarea
     id: example
     attributes:
@@ -57,17 +57,17 @@ body:
     validations:
       required: true
   - type: dropdown
-  attributes:
-    label: Select Question Topic
-    description: What would you like to discuss?
-    options:
-      - "API"
-      - "Meta"
-      - "Bug"
-      - "General"
-      - "Other"
-  validations:
-    required: true
+    attributes:
+      label: Select Question Topic
+      description: What would you like to discuss?
+      options:
+        - "API"
+        - "Meta"
+        - "Bug"
+        - "General"
+        - "Other"
+      validations:
+        required: true
   - type: textarea
     id: description
     attributes:
