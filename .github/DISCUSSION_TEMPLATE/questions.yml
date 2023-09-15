@@ -3,7 +3,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for your interest in Starlite! 🚀
+        Thanks for your interest in the project! 🚀
 
         Please follow these instructions, fill every question, and do every step. 🙏
 
@@ -20,17 +20,17 @@ body:
           required: true
         - label: I used the GitHub search to find a similar question and didn't find it.
           required: true
-        - label: I searched the Starlite documentation, with the integrated search.
+        - label: I searched the project documentation, with the integrated search.
           required: true
-        - label: I already searched in Google "How to X in Starlite" and didn't find any information.
+        - label: I already searched in Google "How to X in ..." and didn't find any information.
           required: true
         - label: I already read and followed all the tutorial in the docs and didn't find an answer.
           required: true
-        - label: I already checked if it is not related to Starlite but to [Pydantic](https://github.com/samuelcolvin/pydantic).
+        - label: I already checked if it is not related to the project but to [Pydantic](https://github.com/samuelcolvin/pydantic).
           required: true
-        - label: I already checked if it is not related to Starlite but to [Swagger UI](https://github.com/swagger-api/swagger-ui).
+        - label: I already checked if it is not related to the project but to [Swagger UI](https://github.com/swagger-api/swagger-ui).
           required: true
-        - label: I already checked if it is not related to Starlite but to [ReDoc](https://github.com/Redocly/redoc).
+        - label: I already checked if it is not related to the project but to [ReDoc](https://github.com/Redocly/redoc).
           required: true
   - type: checkboxes
     id: help
@@ -45,14 +45,14 @@ body:
         If I (or someone) can copy it, run it, and see it right away, there's a much higher chance I (or someone) will be able to help you.
 
       placeholder: |
-        from starlite import Starlite
+        from litestar import Litestar
 
         @get("/")
         def hello_world() -> dict[str, str]:
             """Keeping the tradition alive with hello world."""
             return {"hello": "world"}
             
-        app = Starlite(route_handlers=[hello_world])
+        app = Litestar(route_handlers=[hello_world])
       render: python
     validations:
       required: true
@@ -101,16 +101,16 @@ body:
       label: Operating System Details
       description: You can add more details about your operating system here, in particular if you chose "Other".
   - type: input
-    id: starlite-version
+    id: Project-version
     attributes:
-      label: Starlite Version
+      label: Project Version
       description: |
-        What Starlite version are you using?
+        What project version are you using?
 
-        You can find the Starlite version with:
+        You can find the Litestar version with:
 
         ```bash
-        python -c "import starlite; print(starlite.__version__)"
+        python -c "import litestar; print(Litestar.__version__)"
         ```
     validations:
       required: true
