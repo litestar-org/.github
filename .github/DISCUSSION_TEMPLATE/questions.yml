@@ -22,19 +22,16 @@ body:
           required: true
         - label: I searched the project documentation, with the integrated search.
           required: true
-        - label: I already searched in Google "How to X in ..." and didn't find any information.
+        - label: I already searched in Google "How to X in Y" and didn't find any information.
           required: true
         - label: I already read and followed all the tutorial in the docs and didn't find an answer.
           required: true
-        - label: I already checked if it is not related to the project but to [Pydantic](https://github.com/samuelcolvin/pydantic).
+        - label: I already checked if it is not related to the project but to [Pydantic](https://github.com/pydantic/pydantic).
           required: true
         - label: I already checked if it is not related to the project but to [Swagger UI](https://github.com/swagger-api/swagger-ui).
           required: true
         - label: I already checked if it is not related to the project but to [ReDoc](https://github.com/Redocly/redoc).
           required: true
-  - type: checkboxes
-    id: help
-    attributes: {}
   - type: textarea
     id: example
     attributes:
@@ -47,27 +44,15 @@ body:
       placeholder: |
         from litestar import Litestar
 
-        @get("/")
-        def hello_world() -> dict[str, str]:
-            """Keeping the tradition alive with hello world."""
-            return {"hello": "world"}
-            
-        app = Litestar(route_handlers=[hello_world])
+        app = Litestar()
+
+
+        @app.get("/")
+        def read_root():
+            return {"Hello": "World"}
       render: python
     validations:
       required: true
-  - type: dropdown
-    attributes:
-      label: Select Question Topic
-      description: What would you like to discuss?
-      options:
-        - "API"
-        - "Meta"
-        - "Bug"
-        - "General"
-        - "Other"
-      validations:
-        required: true
   - type: textarea
     id: description
     attributes:
@@ -75,7 +60,7 @@ body:
       description: |
         What is the problem, question, or error?
 
-        Write a short description telling us what you are doing, what you expect to happen, and what is currently happening.
+        Write a short description telling me what you are doing, what you expect to happen, and what is currently happening.
       placeholder: |
         * Open the browser and call the endpoint `/`.
         * It returns a JSON with `{"Hello": "World"}`.
@@ -101,7 +86,7 @@ body:
       label: Operating System Details
       description: You can add more details about your operating system here, in particular if you chose "Other".
   - type: input
-    id: Project-version
+    id: project-version
     attributes:
       label: Project Version
       description: |
@@ -110,8 +95,10 @@ body:
         You can find the Litestar version with:
 
         ```bash
-        python -c "import litestar; print(Litestar.__version__)"
+        python -c "import litestar; print(litestar.__version__)"
         ```
+    validations:
+      required: true
     validations:
       required: true
   - type: input
