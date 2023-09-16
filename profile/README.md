@@ -22,7 +22,7 @@
 * [Litestar Project - Home][home]
 * [Litestar Documentation][docs]
 * [Release Schedule][releases]
-* [Organizational Structure][orgstruct]
+* [Governance & Organizational Structure][orgstruct]
 
 ### Quick Links:
 * [How to Contribute][contrib]
