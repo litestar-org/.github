@@ -34,7 +34,7 @@ consider participating in one of the following forums:
 - [Litestar Discord Server][discord]
 - [Litestar Subreddit][subreddit]
 
-[discord]: https://discord.gg/X3FJqy8d2j
+[discord]: https://discord.gg/litestar-919193495116337154
 [discordhelp]: https://discord.gg/3vB3U8VPDP
 [subreddit]: https://www.reddit.com/r/litestarapi
 [ghdiscussions]: https://github.com/orgs/litestar-org/discussions
