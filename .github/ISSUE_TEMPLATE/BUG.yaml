@@ -64,8 +64,8 @@ body:
   - type: textarea
     id: version
     attributes:
-      label: "Litestar Version"
-      description: What version of Litestar are you using when encountering this issue?
+      label: "Package Version"
+      description: What version of the package are you using when encountering this issue?
     validations:
       required: true
   - type: checkboxes
