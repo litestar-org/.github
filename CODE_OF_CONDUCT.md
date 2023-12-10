@@ -1,5 +1,9 @@
 # Contributor Covenant Code of Conduct
 
+> [!NOTE]  
+> All Litestar organization repositories and interactions are governed by our code of conduct below,
+> as well as the Python Software Foundation's [Code of Conduct](https://www.python.org/psf/conduct/).
+
 ## Our Pledge
 
 We as members, contributors, and leaders pledge to make participation in our
