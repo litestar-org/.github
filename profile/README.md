@@ -15,9 +15,6 @@
 
 # Litestar | Effortlessly Build Performant APIs
 
-> [!IMPORTANT]\
-> [**_Starlite has been renamed to Litestar_**](https://litestar.dev/about/organization.html#litestar-and-starlite)
-
 ### Project Information:
 * [Litestar Project - Home][home]
 * [Litestar Documentation][docs]
@@ -31,6 +28,30 @@
 * [Create a Discussion][discussion]
 * [Security Policy][security]
 * [How to Get Support][support]
+
+## Sponsors
+
+Litestar is an open-source project, and we enjoy the support of our sponsors to help fund the exciting
+work we do.
+
+A **huge** thanks to our sponsors:
+
+[//]: # "Note to maintainers: Highest sponsors first; no more than 3 per row - create new div if needed"
+
+<a href="https://github.com/scalar/scalar/?utm_source=litestar&utm_medium=website&utm_campaign=main-badge" target="_blank" title="Scalar.com - Document, Discover and Test APIs with Scalar."><img src="https://raw.githubusercontent.com/litestar-org/branding/main/assets/sponsors/scalar.svg" width="180" alt="Scalar.com"></a>
+<a href="https://telemetrysports.com/" title="Telemetry Sports - Changing the way data influences the sports experience"><img src="https://raw.githubusercontent.com/litestar-org/branding/main/assets/sponsors/telemetry-sports/unofficial-telemetry-whitebg.svg" width="150" alt="Telemetry Sports"></a>
+<a href="https://www.stok.kr/" title="Stok - Stack Up Your Assets!"><img src="https://avatars.githubusercontent.com/u/144093421?s=400&v=4" width="150" alt="Stok"></a>
+
+<a href="https://docs.litestar.dev/dev/#sponsors" class="external-link" target="_blank">Check out our sponsors in the docs</a>
+
+If you would like to support the work that we do please consider [becoming a sponsor][sponsor-github]
+on [GitHub][sponsor-github] or [Open Collective][sponsor-oc].
+
+We also participate in pledge-based sponsorship with [Polar][sponsor-polar].
+
+[sponsor-github]: https://github.com/sponsors/litestar-org
+[sponsor-oc]: https://opencollective.com/litestar
+[sponsor-polar]: https://polar.sh/litestar-org
 
 ### Code of Conduct
 
