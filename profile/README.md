@@ -49,9 +49,9 @@ on [GitHub][sponsor-github] or [Open Collective][sponsor-oc].
 
 We also participate in pledge-based sponsorship with [Polar][sponsor-polar].
 
-[sponsor-github]: https://github.com/sponsors/litestar-org
-[sponsor-oc]: https://opencollective.com/litestar
-[sponsor-polar]: https://polar.sh/litestar-org
+<div align="center">
+<a href="https://polar.sh/litestar-org/subscriptions"><picture><source media="(prefers-color-scheme: dark)" srcset="https://polar.sh/embed/tiers.svg?org=litestar-org&darkmode"><img alt="Subscription Tiers on Polar" src="https://polar.sh/embed/tiers.svg?org=litestar-org"></picture></a>
+</div>
 
 ### Code of Conduct
 
@@ -68,3 +68,6 @@ All Litestar projects are subject to the [Code of Conduct][conduct]. Please revi
 [discussion]: https://github.com/orgs/litestar-org/discussions/new/choose
 [security]: https://github.com/litestar-org/litestar/security/policy
 [support]: https://github.com/litestar-org/.github/blob/main/SUPPORT.md
+[sponsor-github]: https://github.com/sponsors/litestar-org
+[sponsor-oc]: https://opencollective.com/litestar
+[sponsor-polar]: https://polar.sh/litestar-org
