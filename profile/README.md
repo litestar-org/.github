@@ -44,7 +44,6 @@ A **huge** thanks to our sponsors:
 ## Silver Sponsors
 
 <a href="https://telemetrysports.com/" title="Telemetry Sports - Changing the way data influences the sports experience"><img src="https://raw.githubusercontent.com/litestar-org/branding/main/assets/sponsors/telemetry-sports/unofficial-telemetry-whitebg.svg" width="125" alt="Telemetry Sports"></a>
-<a href="https://www.stok.kr/" title="Stok - Stack Up Your Assets!"><img src="https://avatars.githubusercontent.com/u/144093421?s=400&v=4" width="125" alt="Stok"></a>
 
 <a href="https://docs.litestar.dev/dev/#sponsors" class="external-link" target="_blank">Check out our sponsors in the docs</a>
 
